@@ -9,8 +9,8 @@ jobs:
     - name: trigger single Job
       uses: amoha250-ford/trigger-jenkins-job@main
       with:
-        jenkins-server: "http://34.234.79.119:8080/"
-        jenkins-username: "abdul_mo"
+        jenkins-server: "http://44.194.255.123:8080//"
+        jenkins-username: "student"
         jenkins-pat: 1185e07f430de783cc8872eb293ba1eecf
         jenkins-job: "test-job"
         poll-time: 10 # how often (seconds) to poll the jenkins server for results
